@@ -1,0 +1,129 @@
+header{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+header div{
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;}
+.Articles
+{
+    background-color: var(--main-color);
+    flex-direction: column;
+    width: 99%;
+    height: fit-content;
+
+}
+.Articles .card-container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: fit-content;
+    margin: 30px auto;
+
+
+}
+.Articles .card
+{
+    width: 220px; 
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 10px;
+    height: 650px;
+    border: 2px solid var(--third-color);
+    background-color: rgba(228, 228, 227, 0.932); 
+
+
+}
+.Articles .card img{
+width: 100%;
+height: auto;
+
+}
+.Articles .card-content
+{
+    padding: 16px;
+
+}
+.Articles .card-content h3
+{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: var(--main-color);
+}
+.Articles .card-content p
+{
+    color: var(--main-color);
+    font-size: 15px;
+    line-height: 1.3;
+    margin: 10px auto ;
+}
+.Articles .card-content .btn
+{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color:var(--main-color);
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 16px;
+    color:var(--secondary-color);
+    text-align: center;
+   
+}
+
+.Articles .card-content .btn:hover
+{
+    background-color:var(--third-color);
+}
+
+.Articles .card:hover
+{
+    background-color: rgb(37, 35, 35);
+    color: var(--secondary-color);
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: all 1s ease;
+    
+}
+.Articles .card:hover p
+{
+   color: var(--secondary-color);
+    
+}
+.Articles .card:hover .card-content h3
+{
+    color: var(--secondary-color);
+}
+.Articles .special-h1  {  
+    color: var(--secondary-color);
+    text-align: center;
+    vertical-align: super;
+   padding-top: 60px;
+   font-size: 45px;
+   font-style: oblique;
+}
+.Articles .special-p{
+  
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--third-color);
+    text-align: start;
+    width: 80%;
+
+
+}
+
+.Articles  header .line3{
+    margin: auto 0;
+    background-color: var(--secondary-color);
+    height: 150px;
+    width: 5px;
+    border-radius: 20px;
+}

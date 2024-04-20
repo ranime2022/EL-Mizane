@@ -1,0 +1,1546 @@
+/* Le cote responsive du site web (mobile) */
+
+@media screen and (max-width: 500px){
+    
+  
+    body{
+        max-width: 100%;
+        
+    }
+    
+    section{
+        height: fit-content;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sidebar {
+        position: fixed;
+        top: 0; 
+        left: 0;
+        width: 375px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0,0.8);
+        transition: top 0.3s ease;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--main-color);
+        z-index: 12;
+        
+    }
+
+    .sidebar div{
+        width:100%;
+        display: flex;
+       justify-content: center;
+    }
+    .sidebar div a{
+        padding: 10px 20px;
+        background-color: var(--third-color);
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .sidebar  a{
+        margin:20px;
+    }
+
+    .sidebar #x{
+        position: absolute;
+        color: aliceblue;
+        top:0;
+        right:0;
+        padding:10px 15px;
+        margin:10px;
+        background-color: var(--third-color);
+        border-radius: 100%;
+    }
+    
+    /**********B**********/
+    
+    .btns {
+        display: none;
+    
+    }
+    
+    .btns .btn{
+        height: 15px;
+        width: 60%;
+        background: var(--secondary-color);
+        border-radius: 20px;
+        color: var(--main-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    /**********C**********/
+    
+    .card {
+    display: none;
+    }
+    
+    .carousel{
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    
+    }
+    
+    .contact{
+        width: 60%;
+        height: 4%;
+       
+            }
+    
+    
+    .container{
+        height:100vh;
+        
+    }
+    
+    .content{
+        
+      
+        min-height: 60%;
+     
+    }
+    
+    
+    
+    
+    /**********L**********/
+    
+    .landing-page{
+        width: 100%;
+        margin: 0;
+         height: fit-content;
+    }
+    
+    
+    .left-arrow{
+        margin-right: 25px;
+    }
+    
+    .left-part{
+        width: fit-content;
+        width: 100%;
+        height:95vh;
+        border-radius:0 ;
+        justify-content: center;
+        align-items: center;
+        border:none;
+    
+    }
+    
+
+    
+    .left-part div{
+        padding: 2px;
+        margin: 0;
+    }
+    
+    .left-part h1{
+        font-size: 50px;
+        color: var(--third-color)
+       
+    }
+    
+    .left-part nav {
+        display: none;
+    
+    }
+    
+    .left-part p{
+        text-align: center;
+        width: 99%;
+        margin: auto;
+    }
+    
+    .Login{
+        display: none;
+    }
+
+    /**********N**********/
+    .mobilnav{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--third-color);
+        position: fixed;
+        top: 0;
+        z-index: 10;
+
+       
+    }
+
+    .mobilnav i {
+        color: var(--main-color);
+        font-size: 15pt;
+      
+    }
+    
+    /**********R**********/
+    
+    .right-part{
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        border: none;
+        
+    }
+    
+    
+    /**********S**********/
+    
+    .slider{
+        width: 300%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        gap:30px;
+        align-items: center;
+        transition: all 0.3s;
+        overflow: hidden;
+       
+    }
+    
+     .square1, .square2, .square3{
+        position: relative;
+        width: 70%;
+        height: 50%;
+      
+    
+    }
+    
+
+    
+    .square1 p,.square2 p,.square3 p{
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+   
+    /****************************************Join Us****************************************/
+
+    /**********B**********/
+
+    button[type="submit"] {
+        width:30%;
+        margin: 20px;
+        font-size: 15px;
+        
+    }
+
+
+    /**********F**********/
+
+    .form-group {
+    width:90%;
+    margin: 20px;
+
+    }
+
+    .fullname{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+
+    /**********H**********/
+    .Hiring{
+        width: 99%;
+    }
+    .Hiring h1{
+        font-size: 35px;
+        text-align: start;
+        }
+    .Hiring p{
+        width:90%;
+        font-size: 16px;
+        align-items: center;
+    }
+
+    label {
+
+        font-size: 15px;
+
+    }
+
+
+    
+    /****************************************FOOTER****************************************/
+footer{
+    height: fit-content;
+}
+    /**********M**********/
+    .mn{
+        display: flex;  
+        flex-direction: column;
+    }
+    .right form input,
+.right form textarea {
+    width: 200px;
+    font-size: 13px;
+    background: #151515;
+    padding-left: 10px;
+    border: 2px solid #222222;
+}
+
+
+.left .icon p {
+    text-align: start;
+    font-size: 15px;
+    line-height: 20px;
+}
+        /****************************************about us****************************************/
+        .About-Us{
+            height:fit-content;
+        
+        }  
+        
+        
+        .About-Us p{
+    
+            margin:20px auto;
+            width:89%;
+           line-height: 25px; 
+            font-size: 16px;
+        }
+
+        .achievement {
+            width: 99%;
+            flex-direction: column;
+            height: 100vh;
+            text-align: start;
+           
+        }
+     
+        .achievement  div{
+            flex-direction:row;
+            width: 100%;
+            height: 30px;
+        }
+        
+        .achievement i{
+            font-size:20px;
+            margin: 5px;
+
+         
+        }
+        
+        .date{
+            margin: 5px;
+        }
+        
+        .line2{
+        display: none;
+        }
+
+        .ach .line3{
+        height: 5px;
+        width: 40px;
+        margin: 1px ;
+        
+        }
+    /****************************************Area of practice****************************************/
+    .Area{
+        background:var(--main-color);
+    
+        max-width:99% ;
+    }
+
+    .AreaN{
+        background:var(--main-color);
+    }
+
+    .Area h1 {
+
+        font-size: 35px;
+    }
+
+   
+    .main, .main1{
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom:0;
+        align-items: center;
+        width: 100%;
+    }
+
+    .crd {
+
+     width:80%; 
+     height: 200px;
+     border-radius: 10px;
+     margin: 20px 0;
+    }
+    .crd-body {
+        height: 170px;
+        line-height: 25px; 
+
+    }
+   
+   
+   /****************************************Lawyers****************************************/
+
+
+    .containe{
+        width: 90%;
+
+    }
+    .Lawyers h1{
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 0;
+
+    }
+    .Lawyers h3{
+        font-size: 15px;
+        line-height: 25px; 
+        text-align: center;  
+        margin: 0 5px;
+
+    }
+
+    .bio{
+        width: 100%;
+    }
+    .bio p{
+
+        color: var(--secondary-color);
+        margin: 2px;
+        font-weight: 300;
+        overflow: hidden;
+        padding: 5px;
+    
+    }
+    .bio h2{
+        margin: 0 5px ;  
+        padding: 10px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    /* BODY & LAWYERS */
+    
+
+
+    .lawyer{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin:0;
+        width: 100%;
+        
+        
+    }
+    /*********************************    L1   ******************************/
+    .l1{
+        height: 100%;
+    
+    }
+    .l1 .bio{
+        height: 95%;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .l1 .photo{
+        height: 350px;
+        width:  250px; 
+        margin: 30px;
+ 
+        
+    }
+    /*safia*/
+    .l1 .photo .imbBx, .imbBx img{
+        width: 350px;  
+ 
+    }
+    .l1 .photo .content{
+        bottom:0;
+        width:100%;
+        backdrop-filter: blur(5px); 
+
+    }
+
+
+
+
+
+    /***************************************  L2    **************************************/
+
+    .l2{
+        margin: 30px;
+        height: 100%; 
+        flex-direction: column-reverse;
+    }
+    .l2 .bio{
+        height: 95%;
+        width: 90%;
+        text-align: justify;
+   
+    }
+
+    .l2 .photo{
+        height: 350px;
+        width:  250px; 
+        margin: 30px;
+        padding-left: 0;
+        border-radius: 10px;
+       
+    }
+    .l2 .photo .imbBx, .imbBx img{
+     
+        width: 100%;
+        height: 330px;
+    }
+    .l2 .photo .content{
+      
+        bottom:0;
+        backdrop-filter: blur(5px); 
+        border-radius: 0;
+        width:  250px; 
+    }
+    .l2 .photo:hover .content{
+        bottom: 0;
+        transition-delay: 3ms;
+    }
+
+    .l2 .bio h2{
+        text-align: center;
+        width: 100%;
+    }
+    .l2 .bio p{
+        width: 90%;
+        text-align: justify;
+    }
+
+
+    /*****************************  L3  *************************/
+    .l3{
+        margin: 30px;
+        height: 100%; 
+        flex-direction: column-reverse;
+    }
+    .l3 .bio{
+        height: 95%;
+        width: 90%;
+        text-align: justify;
+     
+    }
+
+
+    .l3 .photo{
+        height: 400px;
+        width:  250px; 
+        margin: 30px;
+        padding-left: 0;
+        border-radius: 10px;
+    }
+
+    .l3 .photo .content{
+        position: absolute;  
+        bottom:0;
+        backdrop-filter: blur(5px); 
+        border-radius: 0 ;
+
+    }
+
+    .l3 .bio h2{
+        padding-right: 2px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*********************************  L4  ***********************/
+    .l4{
+        height: 100%; 
+    }
+    .l4 .bio{
+        height: 95%;
+        width: 90%;
+        text-align: justify;
+        margin-left: 0;
+    
+    }
+    .l4 .photo{
+        position: relative;
+        height: 100%;
+        height: 400px;
+        width:  250px; 
+     margin:30px
+    }
+    .l4 .photo .imbBx, .imbBx img{
+        height: 350px;
+        width:  270px;
+        border-radius: 10px;
+    }
+    .l4 .photo .content{
+        position: absolute;  
+        bottom:0;
+        backdrop-filter: blur(5px);
+        border-radius:0;
+     
+    }
+ 
+    .l4 .bio h2{
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /****************************************Articles****************************************/
+
+    .Articles
+    {
+      display: none;
+    
+    }
+
+    
+     /****************************************Forum****************************************/
+ .Forum{
+    height: 90vh;
+    margin: auto;
+
+
+ }
+
+ .Forum .title{
+    width:100%;
+    margin: 5px ;
+ }
+
+ .Forum .title h1{
+    font-size: 35px;
+ }
+
+ .Forum .pub-container{
+    width: 99%;
+    height: 90vh;
+    display: flex;
+    background:rgb(17, 17, 17, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+ }
+
+ .Forum .pub-container .disclamer{
+   height: 80vh;
+   width: 250px;
+   padding: 20px;
+   margin: auto;
+   background-color: var(--main-color);
+   border-radius: 20px;
+   margin: 20px auto 20px auto ;
+ }
+
+ .Forum .terms-conditions h1{
+    width:100%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+ }
+
+ .Forum .terms-conditions h2{
+    width:100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 15px;
+
+ }
+
+ .Forum .terms-conditions h3{
+    width:100%;
+    margin: 20px auto;
+    text-align:start;
+    font-weight: 300;
+    font-size: 13px;
+ }
+
+ .dsclr-text{
+    font-size: 13px; 
+    line-height: 20px;
+    
+ }
+ .Forum .buttons{
+    margin: auto;
+ }
+
+.Forum .buttons button{
+    width: 40%;
+    height:10px;
+    margin: 10px auto;
+    padding: 15px 30px;
+}
+    
+
+
+.Forum .forum-container{
+    width:100%;
+    height:100%;
+}
+
+.publication{
+    width:90%;
+    height: 100%;
+    margin-left: 25px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.publication .pub1,.publication  .pub2,.publication  .pub3{
+  font-size: 13px;
+
+    text-overflow: ellipsis;
+}
+
+.forum-container button {
+    border-radius: 100%;
+    padding:2px 6px;
+    margin: 5px;
+    font-size: 15px;
+}
+.publication  .pub3{
+margin-right: 25px;
+}
+
+
+.pro {
+    height:50px;
+
+}
+
+.pro img{
+    height:40px;
+    width:40px;
+    margin-right:10px;
+}
+
+.publication p{
+    width: 90%;
+    text-align: start;
+}
+
+}
+
+@media screen and (min-width: 600px) and (max-width:1024px){
+    
+  
+    body{
+        max-width: 100%;
+        
+    }
+    
+    section{
+        height: fit-content;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sidebar {
+        position: fixed;
+        top: 0; 
+        left: 0;
+        width: 375px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0,0.8);
+        transition: top 0.3s ease;
+        z-index: 2;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--main-color);
+        
+    }
+
+    .sidebar div{
+        width:100%;
+        display: flex;
+       justify-content: center;
+    }
+    .sidebar div a{
+        padding: 10px 20px;
+        background-color: var(--third-color);
+        border-radius: 20px;
+        margin: 20px;
+    }
+
+    .show{
+        top:0;
+    }
+    
+    
+    /**********B**********/
+    
+    .btns {
+        display: none;
+    
+    }
+    
+    .btns .btn{
+        height: 15px;
+        width: 60%;
+        background: var(--secondary-color);
+        border-radius: 20px;
+        color: var(--main-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    /**********C**********/
+    
+    .card {
+    display: none;
+    }
+    
+    .carousel{
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    
+    }
+    
+    .contact{
+        width: 60%;
+        height: 4%;
+       
+            }
+    
+    
+    .container{
+        height:100vh;
+        
+    }
+    
+    .content{
+        
+      
+        min-height: 60%;
+     
+    }
+    
+    
+    
+    
+    /**********L**********/
+    
+    .landing-page{
+        width: 100%;
+        margin: 0;
+         height: fit-content;
+    }
+    
+    
+    .left-arrow{
+        margin-right: 25px;
+    }
+    
+    .left-part{
+        width: fit-content;
+        width: 100%;
+        height:95vh;
+        border-radius:0 ;
+        justify-content: center;
+        align-items: center;
+        border:none;
+    
+    }
+    
+
+    
+    .left-part div{
+        padding: 2px;
+        margin: 0;
+    }
+    
+    .left-part h1{
+        font-size: 50px;
+        color: var(--third-color)
+       
+    }
+    
+    .left-part nav {
+        display: none;
+    
+    }
+    
+    .left-part p{
+        text-align: center;
+        width: 99%;
+        margin: auto;
+    }
+    
+    .Login{
+        display: none;
+    }
+
+    /**********N**********/
+    .mobilnav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--third-color);
+       
+    }
+
+    .mobilnav i {
+        color: var(--main-color);
+        font-size: 15pt;
+      
+    }
+    
+    /**********R**********/
+    
+    .right-part{
+        width: 100%;
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        border: none;
+        
+    }
+    
+    
+    /**********S**********/
+    
+    .slider{
+        width: 300%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        gap:30px;
+        align-items: center;
+        transition: all 0.3s;
+        overflow: hidden;
+       
+    }
+    
+     .square1, .square2, .square3{
+        position: relative;
+        width: 70%;
+        height: 50%;
+      
+    
+    }
+    
+
+    
+    .square1 p,.square2 p,.square3 p{
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+   
+    /****************************************Join Us****************************************/
+
+    /**********B**********/
+
+    button[type="submit"] {
+        width:30%;
+        margin: 20px;
+        font-size: 15px;
+        
+    }
+
+
+    /**********F**********/
+
+    .form-group {
+    width:90%;
+    margin: 20px;
+
+    }
+
+    .fullname{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+
+    /**********H**********/
+    .Hiring{
+        width: 99%;
+    }
+    .Hiring h1{
+        font-size: 35px;
+        text-align: start;
+        }
+    .Hiring p{
+        width:90%;
+        font-size: 16px;
+        align-items: center;
+    }
+
+    label {
+
+        font-size: 15px;
+
+    }
+
+
+    
+    /****************************************FOOTER****************************************/
+footer{
+    height: fit-content;
+}
+    /**********M**********/
+    .mn{
+        display: flex;  
+        flex-direction: column;
+    }
+    .right form input,
+.right form textarea {
+    width: 200px;
+    font-size: 13px;
+    background: #151515;
+    padding-left: 10px;
+    border: 2px solid #222222;
+}
+
+
+.left .icon p {
+    text-align: start;
+    font-size: 15px;
+    line-height: 20px;
+}
+        /****************************************about us****************************************/
+        .About-Us{
+            height:fit-content;
+        
+        }  
+        
+        
+        .About-Us p{
+    
+            margin:20px auto;
+            width:89%;
+           line-height: 25px; 
+            font-size: 16px;
+        }
+
+        .achievement {
+            width: 99%;
+            flex-direction: column;
+            height: 100vh;
+            text-align: start;
+           
+        }
+     
+        .achievement  div{
+            flex-direction:row;
+            width: 100%;
+            height: 30px;
+        }
+        
+        .achievement i{
+            font-size:20px;
+            margin: 5px;
+
+         
+        }
+        
+        .date{
+            margin: 5px;
+        }
+        
+        .line2{
+        display: none;
+        }
+
+        .ach .line3{
+        height: 5px;
+        width: 40px;
+        margin: 1px ;
+        
+        }
+    /****************************************Area of practice****************************************/
+    .Area{
+        background:var(--main-color);
+    
+        max-width:99% ;
+    }
+
+    .AreaN{
+        background:var(--main-color);
+    }
+
+    .Area h1 {
+
+        font-size: 35px;
+    }
+
+   
+    .main, .main1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 0;
+        padding-bottom:0;
+        align-items: center;
+        width: 100%;
+    }
+
+    .crd {
+
+     width:80%; 
+     height: 200px;
+     border-radius: 10px;
+     margin: 20px 0;
+    }
+    .crd-body {
+        height: 170px;
+        line-height: 25px; 
+
+    }
+   
+   
+   /****************************************Lawyers****************************************/
+
+
+    .containe{
+        width: 90%;
+
+    }
+    .Lawyers h1{
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 0;
+
+    }
+    .Lawyers h3{
+        font-size: 15px;
+        line-height: 25px; 
+        text-align: center;  
+        margin: 0 5px;
+
+    }
+
+    .bio{
+        width: 100%;
+    }
+    .bio p{
+
+        color: var(--secondary-color);
+        margin: 2px;
+        font-weight: 300;
+        overflow: hidden;
+        padding: 5px;
+    
+    }
+    .bio h2{
+        margin: 0 5px ;  
+        padding: 10px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    /* BODY & LAWYERS */
+    
+
+
+    .lawyer{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin:0;
+        width: 100%;
+        
+        
+    }
+    /*********************************    L1   ******************************/
+    .l1{
+        height: 100%;
+    
+    }
+    .l1 .bio{
+        height: 95%;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .l1 .photo{
+        height: 350px;
+        width:  250px; 
+        margin: 30px;
+ 
+        
+    }
+    /*safia*/
+    .l1 .photo .imbBx, .imbBx img{
+        width: 350px;  
+ 
+    }
+    .l1 .photo .content{
+        bottom:0;
+        width:100%;
+        backdrop-filter: blur(5px); 
+
+    }
+
+
+
+
+
+    /***************************************  L2    **************************************/
+
+    .l2{
+        margin: 30px;
+        height: 100%; 
+        flex-direction: column-reverse;
+    }
+    .l2 .bio{
+        height: 95%;
+        width: 90%;
+        text-align: justify;
+   
+    }
+
+    .l2 .photo{
+        height: 350px;
+        width:  250px; 
+        margin: 30px;
+        padding-left: 0;
+        border-radius: 10px;
+       
+    }
+    .l2 .photo .imbBx, .imbBx img{
+     
+        width: 100%;
+        height: 330px;
+    }
+    .l2 .photo .content{
+      
+        bottom:0;
+        backdrop-filter: blur(5px); 
+        border-radius: 0;
+        width:  250px; 
+    }
+    .l2 .photo:hover .content{
+        bottom: 0;
+        transition-delay: 3ms;
+    }
+
+    .l2 .bio h2{
+        text-align: center;
+        width: 100%;
+    }
+    .l2 .bio p{
+        width: 90%;
+        text-align: justify;
+    }
+
+
+    /*****************************  L3  *************************/
+    .l3{
+        margin: 30px;
+        height: 100%; 
+        flex-direction: column-reverse;
+    }
+    .l3 .bio{
+        height: 95%;
+        width: 90%;
+        text-align: justify;
+     
+    }
+
+
+    .l3 .photo{
+        height: 400px;
+        width:  250px; 
+        margin: 30px;
+        padding-left: 0;
+        border-radius: 10px;
+    }
+
+    .l3 .photo .content{
+        position: absolute;  
+        bottom:0;
+        backdrop-filter: blur(5px); 
+        border-radius: 0 ;
+
+    }
+
+    .l3 .bio h2{
+        padding-right: 2px;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*********************************  L4  ***********************/
+    .l4{
+        height: 100%; 
+    }
+    .l4 .bio{
+        height: 95%;
+        width: 90%;
+        text-align: justify;
+        margin-left: 0;
+    
+    }
+    .l4 .photo{
+        position: relative;
+        height: 100%;
+        height: 400px;
+        width:  250px; 
+     margin:30px
+    }
+    .l4 .photo .imbBx, .imbBx img{
+        height: 350px;
+        width:  270px;
+        border-radius: 10px;
+    }
+    .l4 .photo .content{
+        position: absolute;  
+        bottom:0;
+        backdrop-filter: blur(5px);
+        border-radius:0;
+     
+    }
+ 
+    .l4 .bio h2{
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /****************************************Articles****************************************/
+
+    .Articles
+    {
+      display: none;
+    
+    }
+
+    
+    /****************************************Forum****************************************/
+ .Forum{
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+
+ }
+
+ .Forum .title{
+    width:98.35%;
+    position: relative;
+    margin:  auto 0 ;
+ }
+
+ .Forum .title h1{
+    color: var(--main-color);
+    font-size: 45px;
+ }
+
+ .Forum .pub-container{
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    background:rgb(17, 17, 17, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+ }
+
+ .Forum .pub-container .disclamer{
+   height: 150vh;
+   width: 500px;
+   padding: 30px;
+   margin: auto;
+   border-radius: 20px;
+   margin: 0 auto 40px auto ;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+ }
+
+ .Forum .terms-conditions h1{
+    width:100%;
+    margin: 20px auto;
+    text-align: center;
+ }
+
+ .Forum .terms-conditions h2{
+    width:100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 17px;
+
+ }
+
+ .Forum .terms-conditions h3{
+    width:100%;
+    margin: 20px auto;
+    text-align:start;
+    font-weight: 300;
+    font-size: 15px;
+ }
+
+ .dsclr-text{
+    padding: 2px;
+    height: 100px;
+    overflow-y: auto;
+ }
+ .dsclr-text::-webkit-scrollbar
+{
+    width:3px;
+    background-color: transparent;
+}
+
+.dsclr-text::-webkit-scrollbar-thumb
+{
+    border-radius: 20px;
+    background-color: var(--third-color);
+}
+
+.Forum .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.Forum .buttons button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: var(--secondary-color);
+    color: var(--main-color) ;
+    width:20%;
+    height:10px;
+    margin: 0 20px;
+    padding: 15px 20px;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.Forum .buttons button:hover{
+    background-color: var(--third-color);
+}
+
+.Forum .forum-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.publication{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+.publication .pubslider{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    gap:30px;
+    align-items: center;
+    transition: all 0.3s;
+    overflow: hidden;
+   
+}
+
+.publication .pub1,.publication  .pub2,.publication  .pub3{
+    height:300px;
+    width:550px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-overflow: ellipsis;
+}
+
+.forum-container button {
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    border: var(--main-color) solid 2px;
+    align-items: center;
+    font-size: 20px ;
+    border-radius: 100%;
+    padding:5px 11px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.forum-container button:hover{
+    color: var(--secondary-color);
+    background-color:rgb(17, 17, 17, 0.9);
+}
+
+.pro {
+    width:90%;
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+
+.pro img{
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+    margin-right:20px;
+}
+
+.publication p{
+    width: 90%;
+    text-align: start;
+}
+.publication a:hover{
+    color: var(--third-color)
+}
+}

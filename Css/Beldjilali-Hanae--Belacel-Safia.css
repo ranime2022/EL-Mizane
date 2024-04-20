@@ -1,0 +1,319 @@
+/****************************************Lawyers****************************************/
+.Lawyers, .containe{
+   
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: auto;
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+}
+.containe{
+    width: fit-content;
+    height: fit-content;
+    justify-content:space-evenly ;
+    align-items: center;
+    background: linear-gradient(rgba(17, 17, 17, 0.95), rgba(17, 17, 17, 0.95));
+    margin: 60px;
+    border:rgba(44, 44, 44, 0.97) 1px solid ;
+    border-radius: 20px;
+}
+.Lawyers h1{
+    color: var(--third-color);
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0 10px 0;
+
+}
+.Lawyers em{
+    color: var(--third-color);
+}
+.Lawyers .line{
+    width:30%;
+    height:4px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.bio{
+    height: 90% ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 75%;
+}
+.bio p{
+
+    color: var(--secondary-color);
+    margin: auto;
+    font-weight: 300;
+    overflow: hidden;
+    padding: 10px;
+ 
+}
+.bio h2{
+    margin: 0 30px ;  
+    padding: 10px;
+}
+/* BODY & LAWYERS */
+.Lawyers{
+    background:  linear-gradient(rgba(17, 17, 17,0.6), rgba(17, 17, 17,0.8)),url('../image/12.jpg');
+    color: var(--secondary-color);;
+    background-size: cover;
+    width:99%;
+    justify-content: space-evenly;
+    
+    margin: auto;
+}
+
+
+.lawyer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30%;
+    margin:40px 0;
+    width: 100%;
+    
+    
+}
+/*********************************    L1   ******************************/
+.l1{
+    height: 100%;
+   
+}
+.l1 .bio{
+    height: 95%;
+    width: 60%;
+text-align: start;
+
+}
+.l1 .selct{
+    display: flex; 
+    justify-content: center;
+}
+.l1 .photo{
+    position: relative;
+    overflow:hidden;
+    height: 100%;
+    width:  300px; 
+    margin-top: 40px;
+}
+/*safia*/
+.l1 .photo .imbBx, .imbBx img{
+    width: 300px;  
+    height: 99%;
+}
+.l1 .photo .content{
+    position: absolute;  /* PERMEtTER DE CREER LE HOVER */
+    bottom:-191px;
+    width: 270px;
+    height: 180px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  /* les éléments seront centrés verticalement */
+    flex-direction: column;  /*permet de contrôler l'orientation des éléments + Ils seront disposés verticalement  */
+    backdrop-filter: blur(35px); /* leffet transparent de la barre des avocat */
+    border-radius:20px;
+    transition: bottom 0.5s;/* utilisée pour définir une transition animée */
+    transition-delay: 0.65s; 
+}
+.l1 .photo:hover .content{
+    bottom: 0;
+    transition-delay: 3ms;
+}
+
+
+
+
+/***************************************  L2    **************************************/
+.l2{
+    height: 100%; 
+}
+.l2 .bio{
+    height: 95%;
+    width: 60%;
+    text-align: start;
+}
+.l2 .selct{
+    display: flex;
+    justify-content: center;
+}
+.l2 .photo{
+    position: relative;
+    height:  100%;
+    width:  230px;
+    padding-left: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    overflow: hidden;
+}
+.l2 .photo .imbBx, .imbBx img{
+    width: 230px;
+    height: 330px;
+}
+.l2 .photo .content{
+    position: absolute;  /* PERMEtTER DE CREER LE HOVER */
+    bottom:-200px;
+    width: 230px;
+    height: 160px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  /* les éléments seront centrés verticalement */
+    flex-direction: column;/* permet de contrôler l'orientation des éléments + Ils seront disposés verticalement */
+    backdrop-filter: blur(35px); /* leffet transparent de la barre des avocat */
+    border-radius: 15px;
+    transition: bottom 0.5s;/* utilisée pour définir une transition animée */
+    transition-delay: 0.65s; 
+}
+.l2 .photo:hover .content{
+    bottom: 0;
+    transition-delay: 3ms;
+}
+
+.l2 .bio h2{
+    padding-left: 0;
+    margin: 0;
+}
+
+
+/*****************************  L3  *************************/
+.l3{
+    height: 100%;
+}
+.l3 .bio{
+    height: 95%;
+    width: 60%;
+    text-align: start;
+    margin-left: 0;
+}
+
+.l3 .selct{
+    justify-content: center;
+}
+.l3 .photo{
+    position: relative;
+    height: 100%;
+    width:  250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.l3 .photo .imbBx, .imbBx img{
+    height: 330px;
+    width:  250px;
+}
+.l3 .photo .content{
+    position: absolute;  /* PERMEtTER DE CREER LE HOVER */
+    bottom:-181px;
+    width: 250px;
+    height: 160px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;  /* les éléments seront centrés verticalement */
+    /* flex-direction: column; permet de contrôler l'orientation des éléments + Ils seront disposés verticalement  */
+    backdrop-filter: blur(35px); /* leffet transparent de la barre des avocat */
+    border-radius: 15px ;
+    transition: bottom 0.5s;/* utilisée pour définir une transition anime */
+    transition-delay: 0.65s; 
+}
+.l3 .photo:hover .content{
+    bottom: 0;
+    transition-delay: 3ms;
+}
+.l3 .bio h2{
+    padding-left: 0;
+    margin: 0;
+}
+/*********************************  L4  ***********************/
+.l4{
+    height: 100%; 
+}
+.l4 .bio{
+    height: 95%;
+    width: 60%;
+    margin-left: 40px;
+ 
+}
+.l4 .photo{
+    position: relative;
+    height: 100%;
+    width:  270px;
+    /* padding-right: 155px; */
+    overflow: hidden;
+}
+.l4 .photo .imbBx, .imbBx img{
+    height: 350px;
+    width:  270px;
+    border-radius: 10px;
+}
+.l4 .photo .content{
+    position: absolute;  /* PERMEtTER DE CREER LE HOVER */
+    bottom:-195px;
+    width: 270px;
+    height: 160px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;  /* les éléments seront centrés verticalement */
+    /* flex-direction: column; permet de contrôler l'orientation des éléments + Ils seront disposés verticalement  */
+    backdrop-filter: blur(35px); /* leffet transparent de la barre des avocat */
+    border-radius: 15px;
+    transition: bottom 0.5s;/* utilisée pour définir une transition animée */
+    transition-delay: 0.65s; 
+}
+.l4 .photo:hover .content{
+    bottom: 0;
+    transition-delay: 3ms;
+}
+
+.l4 .bio h2{
+    padding-left: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+ /* safia */
+.content .name h3{
+    text-transform: uppercase;
+    /* color:#d2ceb7c4;
+    color: #e9e5dc; */
+    color: #f0f0e3;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+    transition-delay: 0.6s;
+}
+ .content .name h3 span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+    /* color: #e9e5dc;
+    color:#d2ceb7c4; */
+    color: #e8e8d7;
+}
+.content   .icon {
+    display: flex;
+    justify-content: center;
+}
+.content .icon li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+.content .icon li a{
+    /* color: #e9e5dc;
+    color:#d2ceb7c4; */
+    color: #e8e8d7;
+    font-size: 24px;
+}

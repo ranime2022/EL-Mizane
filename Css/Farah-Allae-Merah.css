@@ -1,0 +1,588 @@
+
+/****************************************LANDING PAGE****************************************/
+
+
+/**********B**********/
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+    margin: 10px;
+
+}
+
+.btns .btn{
+    height: 10px;
+    width: 100px;
+    background: var(--secondary-color);
+    border-radius: 20px;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.btns .btn a{
+    color: var(--main-color);    
+}
+
+.btns .btn:hover{
+    background-color: var(--third-color);
+}
+
+
+/**********C**********/
+
+.card {
+width: 50%;
+color: var(--main-color);
+background-color: var(--secondary-color);
+padding:10px;
+border-radius: 10px;
+margin: 20px;
+}
+
+.carousel{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.contact{
+    width: 50%;
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+
+.contact  a i{
+font-size: 20pt;
+}
+
+.contact a i:hover {
+    color: var(--third-color);
+ 
+}
+
+.container{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 55%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/**********H**********/
+
+.hyper-text a{
+    text-decoration: none;
+}
+
+.hyper-text a:hover{
+    text-decoration: underline;
+    color: var(--third-color);
+}
+
+
+/**********L**********/
+
+.landing-page{
+    width: 99%;
+    margin: 0 auto;
+}
+
+.left-arrow, .right-arrow{
+    font-weight: 600;
+    font-size: 40px;
+    cursor: pointer;
+   
+}
+
+.left-arrow:hover, .right-arrow:hover{
+    color:var(--third-color)
+}
+
+.left-arrow{
+    margin-right: 25px;
+}
+
+.left-part{
+    width: 50%;
+    background: var(--main-color);
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--main-color) solid 2px;
+
+}
+
+.left-part, .right-part{
+    height: 95%;
+}
+
+.left-part div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.left-part h1{
+    font-size: 50px;
+    color: var(--secondary-color);
+}
+
+.left-part nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-part p{
+    text-align: justify;
+    width: 75%;
+}
+
+.Login{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.Login div{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
+
+.Login i {
+    font-size: 20pt;
+    color: var(--secondary-color);
+    margin: 0 10px;
+}
+
+
+#logo{
+    width:80px;
+    height:80px;
+    padding: 10px;
+
+}
+
+
+/**********M**********/
+
+.mobilnav {
+    display: none;
+}
+
+
+/**********N**********/
+
+#name{
+    color: var(--third-color);
+    
+}
+
+nav div{
+    margin: 10px;
+}
+
+nav div a{
+    padding: 10px;
+}
+
+
+/**********R**********/
+
+.right-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(rgba(28, 28, 28,0.4), rgba(28, 28, 28,0.6)),url('../image/IMG_6546.JPG') ;
+    background-position: 90%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    border: var(--main-color) solid 2px;
+    border-left: var(--secondary-color);
+}
+
+.right-part  .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:10px;
+    margin: 10px;
+    width: 100px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    color: var(--main-color);
+    width:80px;
+    align-items: center;
+   
+    
+
+}
+
+.right-part .btn:hover{
+    background-color: var(--third-color);
+    text-decoration: none;
+}
+
+
+/**********S**********/
+
+.slider{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    gap:30px;
+    align-items: center;
+    transition: all 0.3s;
+    overflow: hidden;
+   
+}
+.sidebar{
+    display: none;
+}
+ .square1, .square2, .square3{
+    position: relative;
+    background: rgba(28, 28, 28,0.80);
+    width: 60%;
+    height: 70%;
+    gap: 30px;
+    border-radius: 10px; 
+    color: var(--secondary-color);
+    border: var(--secondary-color) solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.square3{
+    margin-right: 30px; 
+}
+
+.square1 i, .square2 i, .square3 i {
+    font-size: 50px;
+    color:var(--third-color);
+}
+
+.square1 p,.square2 p,.square3 p{
+    text-align: justify;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+ /****************************************About Us****************************************/
+
+/*.About-Us{
+    flex-direction: column;
+    align-items: start;
+    color: var(--main-color);
+    justify-content: start;
+    height:fit-content;
+
+}  */
+
+.About-Us h1{
+    font-size: 50px;
+    color: var(--main-color);
+    text-align: start;
+}
+
+.About-Us p{
+    color: var(--main-color);
+    margin:60px auto ;
+    width:85%;
+    font-size: 20px;
+}
+
+.achievement {
+    width: 99%;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: start;
+   height: 300px;
+    text-align: center;
+   
+}
+
+.achievement .ach h5 {
+    font-size: 13px;
+    color: var(--main-color);
+    text-align: start;
+    width: 100%;
+    font-weight: 500;
+
+}
+
+.achievement  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    width: 16%;
+    margin: 2px 5px ;
+    height: 300px;
+}
+
+.achievement i{
+    font-size:25px;
+    color: var(--third-color);
+    border: var(--third-color) 2px solid;
+    padding: 5px;
+    border-radius: 100%;
+ 
+}
+
+.date{
+    color: var(--third-color);
+    padding: 2px;
+}
+
+.line2{
+    width: 90%;
+    height: 5px;
+    border-radius: 200px;
+    background-color: var(--third-color);
+    margin: 5px auto;
+}
+.ach .line3{
+    width: 5px;
+    height: 40px;
+    border-radius: 200px;
+    background-color: var(--third-color);
+    margin: 1px ;
+
+}
+
+
+ /****************************************Forum****************************************/
+ .Forum{
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+
+ }
+
+ .Forum .title{
+    width:98.35%;
+    position: relative;
+    margin:  auto 0 ;
+ }
+
+ .Forum .title h1{
+    color: var(--main-color);
+    font-size: 45px;
+ }
+
+ .Forum .pub-container{
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    background:rgb(17, 17, 17, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+ }
+
+ .Forum .pub-container .disclamer{
+   height: 85%;
+   width: 500px;
+   padding: 30px;
+   background-color: var(--main-color);
+   border-radius: 20px;
+   margin: 20px auto 20px auto ;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .Forum .terms-conditions h1{
+    width:100%;
+    margin: 20px auto;
+    text-align: center;
+ }
+
+ .Forum .terms-conditions h2{
+    width:100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 17px;
+
+ }
+
+ .Forum .terms-conditions h3{
+    width:100%;
+    margin: 20px auto;
+    text-align:start;
+    font-weight: 300;
+    font-size: 15px;
+ }
+
+ .dsclr-text{
+    padding: 2px;
+    height: 250px;
+    overflow-y: auto;
+ }
+ .dsclr-text::-webkit-scrollbar
+{
+    width:3px;
+    background-color: transparent;
+}
+
+.dsclr-text::-webkit-scrollbar-thumb
+{
+    border-radius: 20px;
+    background-color: var(--third-color);
+}
+
+.Forum .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.Forum .buttons button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: var(--secondary-color);
+    color: var(--main-color) ;
+    width:20%;
+    height:10px;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.Forum .buttons button:hover{
+    background-color: var(--third-color);
+}
+
+.Forum .forum-container{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.publication{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+.publication .pubslider{
+    width: 300%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    gap:30px;
+    align-items: center;
+    transition: all 0.3s;
+    overflow: hidden;
+   
+}
+
+.publication .pub1,.publication  .pub2,.publication  .pub3{
+    height:300px;
+    width:550px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-overflow: ellipsis;
+}
+
+.forum-container button {
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    border: var(--main-color) solid 2px;
+    align-items: center;
+    font-size: 20px ;
+    border-radius: 100%;
+    padding:5px 11px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.forum-container button:hover{
+    color: var(--secondary-color);
+    background-color:rgb(17, 17, 17, 0.9);
+}
+
+.pro {
+    width:90%;
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+
+.pro img{
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+    margin-right:20px;
+}
+
+.publication p{
+    width: 90%;
+    text-align: start;
+}
+.publication a:hover{
+    color: var(--third-color)
+}

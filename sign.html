@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ 
+    <link  rel="stylesheet" href="Css/style.css" >   
+    <link  rel="stylesheet" href="Css/sign-Merah-allae.css" >
+
+   
+    <!-- link vers font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Link vers la police de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <title>El Mizen-Login page</title>
+</head>
+<body id="Body">
+ 
+<div class="container"  id="container">
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Create An Account</h1>
+                <div class="social-icons">
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-google"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <span>Or use your email for registration</span>
+            
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+
+        <div class="form-container sign-up">
+            <form>
+                <h1>Log in</h1>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-google"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <span>Or use your email to log in</span>
+           
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="" >Forgot Your Password?</a>
+                <button>Log In</button>
+            </form>
+        </div>
+
+
+        <div class="toggle-container">
+            <div class="toggle">
+
+                <div class="toggle-panel toggle-right">
+                    <h1> Welcome Back!</h1>
+                    <p> Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="register" >Log In</button>
+                </div>
+
+                <div class="toggle-panel toggle-left">
+                    <h1>Registration opens the door <br> a personalized experience.</h1>
+                    <p> Enter your personal details to use all of site features</p>
+                    <button class="hidden"  id="login"  >Sign In</button>
+                </div>
+            </div>    
+        </div>
+</div>
+
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

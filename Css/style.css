@@ -1,0 +1,209 @@
+/* Les variables des couleur */
+:root{
+    --main-color:rgb(17, 17, 17);
+    --secondary-color:rgb(228, 228, 227);
+    --third-color:#9a905c;
+}
+
+/* Initialisation des marge interieurs et exterieures */
+*{
+    padding: 0;
+    margin: 0;
+    color: var(--secondary-color);
+    font-family: "Rubik", sans-serif;
+}
+
+
+body{
+    max-width: 100%;
+    font-family: "Rubik", sans-serif;
+}
+
+section{
+    height: 100vh;
+    width: 99%;
+    margin: 0 auto;
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ a{
+    text-decoration: none;
+    
+ }
+
+
+.top-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    background-color:var(--third-color);
+    color: #fff;
+    transition: width 0.3s ease;
+    z-index: 1000; 
+    height: 5px;
+    z-index: 50;
+  }
+
+
+ .top-div-container
+ {
+    height: 5px;
+    width: 100%;
+    background-color: #4a452e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    
+ }
+
+
+
+/****************************************Header-Merah Allae Farah****************************************/
+.menu{
+    width:52%;
+    padding: 10px;
+    margin: auto;
+    background-color: var(--main-color);
+    height:30px;
+    border-radius: 20px; 
+    margin: 20px;
+    position: fixed;
+    border: var(--secondary-color) 2px solid;
+    
+}
+.menu nav{
+    width: 100%;
+    height: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+   
+}
+
+.menu nav a{
+    color: var(--secondary-color);
+    padding: 10px;
+}
+.menu nav a:hover{
+    text-decoration: underline;
+    color: var(--third-color);
+}
+/****************************************FOOTER-Belacel-Safia****************************************/
+
+footer {
+    /* position: fixed; faire rester en bas de la fenêtre du navigateur */
+    bottom: 0;       /*coller le footer au bas de la fenêtre du navigateur*/
+    width: 99%;     /* toute la largeur */
+    background: var(--main-color);
+    margin: 0 auto; /*faire centre sur la page */
+}
+
+.mn{
+    display: flex;  
+}
+
+.mn .b {
+    flex-basis: 50%; /* occuper la moitié de l'espace disponible pour tout les divison */
+    padding: 10px 20px;
+}
+
+.b h2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+       color: var(--third-color);
+}
+
+.b .icon {
+    margin: 20px 0 0 0;
+}
+
+.left .icon .résaux  {
+    margin: 20px 0 0 0;
+}
+
+.left .icon p {
+    text-align: justify; /*Créer un bloc de texte visuellement équilibré pour faciliter la lecture*/
+}
+
+.left .icon .résaux  a {
+    padding: 0 2px;
+  
+}
+
+.left .icon .résaux  a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;  /*contrôle l'espacement vertical entre les lignes de texte */
+    text-align: center; 
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.left .icon .résaux  a span:hover {
+    background: #716d0f7d;
+}
+
+.center .icon a, .copi a {
+    text-decoration: underline;
+}
+.center .icon .fas {
+    font-size: 20px;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+ 
+}
+.center .icon .phone {
+    margin: 10px 0;
+}
+
+.right form .msg {
+    margin-top: 10px;
+  
+}
+
+.right form input,
+.right form textarea {
+    width: 400px;
+    font-size: 15px;
+    background: #151515;
+    padding-left: 10px;
+    color: whitesmoke;
+    border: 2px solid #222222;
+}
+.right form input {
+    height: 35px;
+   
+}
+
+.right .icon {
+    align-items: start;
+    width: 100%;
+}
+.copi {
+    padding: 5px;
+    font-size: 15px; 
+    background: #151515;
+
+}
+.menu #logo{
+    width:80px;
+    height:60px;
+    margin: 3px;
+    padding: 2px;
+
+}
+
